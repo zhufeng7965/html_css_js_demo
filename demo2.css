@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 600px;
+	height: 300px;
+	background:#ccc;
+	margin: auto;
+
+}
+.one1, .one2, .one3 {
+	width: 100px;
+	height: 100px;
+	background: #aaa;
+	float:left;
+	margin: 20px 20px; 
+	border-radius: 100px;
+}
+@keyframes demo1 {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+		
+	}
+	100% {
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+		
+	}
+}
+@keyframes demo2 {
+	0% {
+		transform: rotateX(30deg) rotateY(30deg) rotateZ(30deg);
+		
+	}
+	100% {
+		transform: rotateX(-330deg) rotateY(-330deg) rotateZ(-330deg);
+		
+	}
+}
+@keyframes demo3 {
+	0% {
+		transform: rotateX(60deg) rotateY(60deg) rotateZ(60deg);
+		
+	}
+	100% {
+		transform: rotateX(-300deg) rotateY(-300deg) rotateZ(-300deg);
+		
+	}
+}
+.one1,.one2,.one3 {
+	/*border-radius: 100px;*/
+	position: fixed;
+}
+.one1 {
+	animation: demo1 6s ease-in-out 0s infinite;
+}
+.one2 {
+	animation: demo2 7s linear 0s infinite;
+
+}
+.one3 {
+	animation: demo3 8s ease-in-out 0s infinite;
+}
+.dian {
+	float:left;
+	width:10px;
+	height: 10px;
+	background:red;
+	margin-top: -6.5px;
+	margin-left: 45px;
+	border-radius: 10px;
+	border: 1px solid red; 
+}
+
+
+/*demo js */
+.js1 {
+	width: 100px;
+	height: 100px;
+	background: #666;
+	margin: auto;
+}
+#changeColor,.scc {
+	margin:auto;
+	display: block;
+}
